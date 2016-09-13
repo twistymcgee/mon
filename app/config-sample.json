@@ -1,0 +1,7 @@
+{
+  "mailer": {
+    "smtp_host": "smtp_host",
+    "to_address": "to_address",
+    "from_address": "from_address"
+  }
+}
