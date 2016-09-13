@@ -1,4 +1,5 @@
 var promise = require('bluebird');
+var config = require('./config.json');
 
 var options = {
   // Initialization Options
@@ -6,8 +7,7 @@ var options = {
 };
 
 var pgp = require('pg-promise')(options);
-var connectionString = 'postgres://localhost:5432/mon';
-var db = pgp(connectionString);
+var db = pgp(config.database);
 
 // add query functions
 

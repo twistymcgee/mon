@@ -3,5 +3,12 @@
     "smtp_host": "smtp_host",
     "to_address": "to_address",
     "from_address": "from_address"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5431,
+    "database": "mon",
+    "user": "postgres",
+    "password": "<password>"
   }
 }
